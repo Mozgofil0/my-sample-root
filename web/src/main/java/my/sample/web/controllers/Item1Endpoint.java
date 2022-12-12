@@ -15,7 +15,7 @@ public class Item1Endpoint {
 
     @GetMapping("/endpoint1/model1")
     Item1Model1 getDefault() {
-        return Item1Model1.mapFrom(service.getById(17));
+        return Item1Model1.mapFrom(service.getById(23));
     }
 
     @GetMapping("/endpoint1/model1/{id}")

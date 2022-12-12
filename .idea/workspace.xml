@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c65e0f-3c7c-44c8-ae58-21788eeff30b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/docker-compose.dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/my/sample/web/controllers/Item1Endpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/my/sample/web/controllers/Item1Endpoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Temp/0/my-sample-root/web/docker-compose.dev.yml",
+    "last_opened_file_path": "C:/Projects/Armada/EAISTO/eaisto-integration",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15039062",
@@ -59,7 +55,7 @@
       <recent name="C:\Temp\0\my-sample-root" />
     </key>
   </component>
-  <component name="RunManager" selected="Remote JVM Debug.Remote Debug web">
+  <component name="RunManager" selected="Docker.docker-compose.dev">
     <configuration name="Remote Debug web" type="Remote">
       <module name="web" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -86,11 +82,16 @@
       <deployment type="docker-compose.yml">
         <settings>
           <option name="envFilePath" value="" />
+          <option name="removeImagesOnComposeDown" value="ALL" />
           <option name="commandLineOptions" value="--build" />
           <option name="sourceFilePath" value="web/docker-compose.dev.yml" />
+          <option name="upAlwaysRecreate" value="true" />
+          <option name="upDetach" value="false" />
+          <option name="upForceRecreate" value="true" />
         </settings>
       </deployment>
       <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_down" />
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
       </method>
     </configuration>
@@ -108,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670831113421</updated>
-      <workItem from="1670831114613" duration="8915000" />
+      <workItem from="1670831114613" duration="20491000" />
     </task>
     <servers />
   </component>
@@ -125,5 +126,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/my/sample/domain/implementations/Item1ServiceImpl.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
