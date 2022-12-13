@@ -6,8 +6,8 @@
     <groupId>my.sample</groupId>
     <artifactId>root</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>My Sample Root</name>
-    <description>My Sample Root Module-container</description>
+    <name>Root Module</name>
+    <description>Project Root Module (parent)</description>
     <packaging>pom</packaging>
 
     <parent>
@@ -29,8 +29,8 @@
 
     <modules>
         <module>domain</module>
-        <module>web</module>
         <module>repository</module>
+        <module>web</module>
         <module>worker</module>
     </modules>
 
