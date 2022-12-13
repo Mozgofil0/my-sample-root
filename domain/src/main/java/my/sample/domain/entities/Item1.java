@@ -6,4 +6,5 @@ import lombok.Data;
 public class Item1 {
     long id;
     String name;
+    int value;
 }

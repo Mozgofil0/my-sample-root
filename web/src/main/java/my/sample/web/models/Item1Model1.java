@@ -8,6 +8,7 @@ public class Item1Model1 {
 
     long id;
     String name;
+    int value;
 
     public static Item1Model1 mapFrom(Item1 entity) {
         if (entity == null) {
@@ -17,6 +18,7 @@ public class Item1Model1 {
 
         model.setId(entity.getId());
         model.setName(entity.getName());
+        model.setValue(entity.getValue());
 
         return model;
     }
@@ -26,6 +28,7 @@ public class Item1Model1 {
 
         entity.setId(this.getId());
         entity.setName(this.getName());
+        entity.setValue(this.getValue());
 
         return entity;
     }

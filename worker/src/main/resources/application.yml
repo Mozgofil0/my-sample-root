@@ -1,0 +1,7 @@
+my-sample:
+  repository:
+    directory: /storage
+  worker:
+    item1-incrementer:
+      id: 7
+      delta: 3

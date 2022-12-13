@@ -9,35 +9,21 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>web</artifactId>
+    <artifactId>worker</artifactId>
+    <groupId>my.sample</groupId>
     <version>${parent.version}</version>
-    <name>My Sample Web</name>
-    <description>My Sample Web Application</description>
+    <name>worker</name>
+    <description>worker</description>
 
     <properties>
         <java.version>11</java.version>
-        <jar.finalName>web-pack</jar.finalName>
+        <jar.finalName>worker-pack</jar.finalName>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-boot-starter</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>3.0.0</version>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>

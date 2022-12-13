@@ -5,14 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c65e0f-3c7c-44c8-ae58-21788eeff30b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/repositories/Item1Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/src/main/java/my/sample/repository/implementations/Item1RepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/docker-compose.dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/src/main/java/my/sample/worker/SampleWorkerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/src/main/java/my/sample/worker/configuration/Item1IncrementerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/src/main/java/my/sample/worker/workers/Item1Incrementer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worker/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/entities/Item1.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/entities/Item1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/implementations/Item1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/implementations/Item1ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/services/Item1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/services/Item1Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/docker-compose.dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/my/sample/web/controllers/Item1Endpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/my/sample/web/controllers/Item1Endpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/my/sample/web/models/Item1Model1.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/my/sample/web/models/Item1Model1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +57,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2InxO7icIW34yRUwqnFv19Sh5ZY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,21 +74,25 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Projects/Armada/EAISTO/eaisto-integration",
+    "jdk.selected.JAVA_MODULE": "liberica-11",
+    "last_opened_file_path": "C:/Temp/0/my-sample-root/worker/docker-compose.dev.yml",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15039062",
-    "project.structure.side.proportion": "0.30574712"
+    "project.structure.side.proportion": "0.30574712",
+    "spring.configuration.checksum": "908dddf707dac0b442c17bfacda76545"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Temp\0\my-sample-root\worker" />
       <recent name="C:\Temp\0\my-sample-root" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.dev">
-    <configuration name="Remote Debug web" type="Remote">
+  <component name="RunManager" selected="Docker.Worker Docker">
+    <configuration name="Web Remote Debug" type="Remote">
       <module name="web" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -70,7 +106,21 @@
       </RunnerSettings>
       <method v="2" />
     </configuration>
-    <configuration name="SampleWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Worker Remote Debug" type="Remote">
+      <module name="web" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8001" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8001" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Web Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="my.sample.web.SampleWebApplication" />
@@ -78,7 +128,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.dev" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+    <configuration name="Worker Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="worker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.sample.worker.SampleWorkerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web Docker" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="envFilePath" value="" />
@@ -95,10 +153,30 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
       </method>
     </configuration>
+    <configuration name="Worker Docker" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="removeImagesOnComposeDown" value="ALL" />
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="worker/docker-compose.dev.yml" />
+          <option name="upAlwaysRecreate" value="true" />
+          <option name="upDetach" value="false" />
+          <option name="upForceRecreate" value="true" />
+        </settings>
+      </deployment>
+      <method v="2">
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_down" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Docker.docker-compose.dev" />
-      <item itemvalue="Remote JVM Debug.Remote Debug web" />
-      <item itemvalue="Spring Boot.SampleWebApplication" />
+      <item itemvalue="Docker.Web Docker" />
+      <item itemvalue="Docker.Worker Docker" />
+      <item itemvalue="Remote JVM Debug.Web Remote Debug" />
+      <item itemvalue="Remote JVM Debug.Worker Remote Debug" />
+      <item itemvalue="Spring Boot.Worker Application" />
+      <item itemvalue="Spring Boot.Web Application" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,7 +187,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670831113421</updated>
-      <workItem from="1670831114613" duration="20491000" />
+      <workItem from="1670831114613" duration="22592000" />
+      <workItem from="1670909564076" duration="764000" />
+      <workItem from="1670910337815" duration="10254000" />
     </task>
     <servers />
   </component>
@@ -131,9 +211,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/domain/src/main/java/my/sample/domain/implementations/Item1ServiceImpl.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/repository/src/main/java/my/sample/repository/implementations/Item1RepositoryImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
