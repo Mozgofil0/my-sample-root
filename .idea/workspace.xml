@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8c65e0f-3c7c-44c8-ae58-21788eeff30b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/worker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/worker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/docker-compose.dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/worker/docker-compose.dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +168,7 @@
       <updated>1670831113421</updated>
       <workItem from="1670831114613" duration="22592000" />
       <workItem from="1670909564076" duration="764000" />
-      <workItem from="1670910337815" duration="11793000" />
+      <workItem from="1670910337815" duration="12249000" />
     </task>
     <servers />
   </component>

@@ -14,4 +14,4 @@ services:
       - storage:/storage
 volumes:
   storage:
-    name: storage
+    name: my-sample-storage
