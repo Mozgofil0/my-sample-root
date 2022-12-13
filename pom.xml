@@ -19,7 +19,6 @@
 
     <properties>
         <java.version>11</java.version>
-        <jackson-core.version>2.13.4</jackson-core.version>
         <jackson-databind.version>2.13.4.1</jackson-databind.version>
         <springfox.version>3.0.0</springfox.version>
         <maven-compiler.version>3.10.1</maven-compiler.version>
@@ -70,11 +69,6 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${springfox.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>${jackson-core.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
