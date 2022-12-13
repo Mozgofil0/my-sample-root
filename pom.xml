@@ -22,11 +22,10 @@
         <jackson-core.version>2.13.4</jackson-core.version>
         <jackson-databind.version>2.13.4.1</jackson-databind.version>
         <springfox.version>3.0.0</springfox.version>
+        <maven-compiler.version>3.10.1</maven-compiler.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
-
 
     <modules>
         <module>domain</module>
@@ -57,7 +56,6 @@
                 <artifactId>worker</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
@@ -107,7 +105,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>${maven-compiler.version}</version>
                 <configuration>
                     <release>${java.version}</release>
                 </configuration>
@@ -122,4 +120,5 @@
             </plugins>
         </pluginManagement>
     </build>
+
 </project>

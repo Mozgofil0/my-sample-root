@@ -31,7 +31,6 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
-
         <dependency>
             <groupId>my.sample</groupId>
             <artifactId>domain</artifactId>
