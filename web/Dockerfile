@@ -1,6 +1,6 @@
 FROM bellsoft/liberica-openjdk-alpine:11.0.15 as builder
 WORKDIR app
-ARG JAR_FILE=target/web-pack.jar
+ARG JAR_FILE=target/web.jar
 COPY ${JAR_FILE} app.jar
 RUN java -Djarmode=layertools -jar app.jar extract
 

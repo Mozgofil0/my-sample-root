@@ -10,15 +10,9 @@
     </parent>
 
     <artifactId>worker</artifactId>
-    <groupId>my.sample</groupId>
     <version>${parent.version}</version>
-    <name>worker</name>
-    <description>worker</description>
-
-    <properties>
-        <java.version>11</java.version>
-        <jar.finalName>worker-pack</jar.finalName>
-    </properties>
+    <name>Worker Application</name>
+    <description>Execute Scheduled Tasks</description>
 
     <dependencies>
         <dependency>
@@ -44,13 +38,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <finalName>${jar.finalName}</finalName>
+                    <finalName>${artifactId}</finalName>
                     <layers>
                         <enabled>true</enabled>
                     </layers>
                     <excludes>
                         <exclude>
-                            <groupId>org.projectlombok</groupId>
+                            <groupId>org.project-lombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>

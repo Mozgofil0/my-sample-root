@@ -11,13 +11,8 @@
 
     <artifactId>web</artifactId>
     <version>${parent.version}</version>
-    <name>My Sample Web</name>
-    <description>My Sample Web Application</description>
-
-    <properties>
-        <java.version>11</java.version>
-        <jar.finalName>web-pack</jar.finalName>
-    </properties>
+    <name>Web Application</name>
+    <description>Web Services Application (REST/SOAP etc.)</description>
 
     <dependencies>
         <dependency>
@@ -27,17 +22,14 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
-            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-boot-starter</artifactId>
-            <version>3.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
-            <version>3.0.0</version>
         </dependency>
 
         <dependency>
@@ -58,13 +50,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <finalName>${jar.finalName}</finalName>
+                    <finalName>${artifactId}</finalName>
                     <layers>
                         <enabled>true</enabled>
                     </layers>
                     <excludes>
                         <exclude>
-                            <groupId>org.projectlombok</groupId>
+                            <groupId>org.project-lombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>

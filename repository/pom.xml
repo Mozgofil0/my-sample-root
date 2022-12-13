@@ -11,14 +11,8 @@
 
     <artifactId>repository</artifactId>
     <version>${parent.version}</version>
-    <name>repository</name>
-    <description>repository</description>
-
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>Repository Library</name>
+    <description>Data Access (Repository) Library</description>
 
     <dependencies>
         <dependency>

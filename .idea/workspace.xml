@@ -5,30 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c65e0f-3c7c-44c8-ae58-21788eeff30b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/repositories/Item1Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/src/main/java/my/sample/repository/implementations/Item1RepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/docker-compose.dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/main/java/my/sample/worker/SampleWorkerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/main/java/my/sample/worker/configuration/Item1IncrementerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/main/java/my/sample/worker/workers/Item1Incrementer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/entities/Item1.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/entities/Item1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/implementations/Item1ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/implementations/Item1ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/services/Item1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/my/sample/domain/services/Item1Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/docker-compose.dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/my/sample/web/models/Item1Model1.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/my/sample/web/models/Item1Model1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/worker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/worker/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,8 +159,8 @@
       <item itemvalue="Docker.Worker Docker" />
       <item itemvalue="Remote JVM Debug.Web Remote Debug" />
       <item itemvalue="Remote JVM Debug.Worker Remote Debug" />
-      <item itemvalue="Spring Boot.Worker Application" />
       <item itemvalue="Spring Boot.Web Application" />
+      <item itemvalue="Spring Boot.Worker Application" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -189,7 +173,7 @@
       <updated>1670831113421</updated>
       <workItem from="1670831114613" duration="22592000" />
       <workItem from="1670909564076" duration="764000" />
-      <workItem from="1670910337815" duration="10254000" />
+      <workItem from="1670910337815" duration="11793000" />
     </task>
     <servers />
   </component>
